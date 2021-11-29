@@ -12,3 +12,9 @@ const Workouts =  new Schema({
         type: Array
     }
 })
+
+
+const Workout = mongoose.model("Workout", Workouts)
+
+
+module.exports = Workout;
